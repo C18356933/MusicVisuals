@@ -1,7 +1,7 @@
 package ie.tudublin;
 
-import C18356933.CubeVisual;
-import C18356933.MyVisual;
+import C18356933.*;
+
 
 public class Main
 {	
@@ -9,7 +9,7 @@ public class Main
 	public void startUI()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new MyVisual());		
+        processing.core.PApplet.runSketch( a, new EllipseFun());		
 	}
 
 	public static void main(String[] args)

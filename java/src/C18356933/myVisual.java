@@ -4,7 +4,7 @@ import ie.tudublin.*;
 
 public class MyVisual extends Visual
 {    
-    WaveForm wf;
+    EllipseFun wf;
     AudioBandsVisual abv;
 
     public void settings()
@@ -29,7 +29,7 @@ public class MyVisual extends Visual
         // Call this instead to read audio from the microphone
         //startListening(); 
         
-        wf = new WaveForm(this);
+        wf = new EllipseFun(this);
         abv = new AudioBandsVisual(this);
     }
 

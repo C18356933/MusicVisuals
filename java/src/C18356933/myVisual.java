@@ -12,7 +12,7 @@ public class MyVisual extends Visual
         size(1024, 500);
         
         // Use this to make fullscreen
-        fullScreen();
+        //fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
         //fullScreen(P3D, SPAN); 
@@ -35,11 +35,13 @@ public class MyVisual extends Visual
 
     public void keyPressed()
     {
+        
         if (key == ' ')
         {
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
         }
+        
     }
 
     public void draw()
@@ -56,10 +58,16 @@ public class MyVisual extends Visual
         }
         // Call this is you want to use frequency bands
         calculateFrequencyBands(); 
-
+ 
         // Call this is you want to get the average amplitude
-        calculateAverageAmplitude();        
-        wf.render();
-        abv.render();
+        calculateAverageAmplitude(); 
+        
+        // this used to call different drawings 
+        if (key == '1')
+        {
+            wf.render1();
+        }
+        
+        
     }
 }

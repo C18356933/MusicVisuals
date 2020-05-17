@@ -75,5 +75,9 @@ public class MyVisual extends Visual
         {
             wf.render3();
         }
+        if (key == '4')
+        {
+            wf.render4();
+        }
     }
 }

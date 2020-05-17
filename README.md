@@ -8,20 +8,20 @@ Student Number: C18356933
 For this OOP assignment we were tasked with creating something visually pleasing that you could look at while listening to music.
 I felt this assingment would match perfectly with the genre of music i like to listen to (house/techno). So i was excited to do the project.
 I tried to incooperate alot of different aspects into the project by including shapes using ellipses and doing waveform and audio bands all in the one project.
-Altogether i have 6 different functions that render different visuals.
+Altogether i have 6 different methods that render different visuals.
 You can change the visuals by pressing a key.(1-6)
 
 # Instructions
-I kept everything in the master branch so that it was easy to find for Bryan. I use kept the provided files given at the started and created two new file 
+I kept everything in the master branch so that it was easy to find for Bryan. I keptv the provided files given at the started and created two new files 
 1.EllipseFun.java(this contains 4 visuals that i used ellipse to create)
 2.BandFun (this contains audio band and waveform )
 You access the 4 visuals from ellipsefun by pressing 1,2,3 or 4 
 You access the bandfun by pressing 5 or 6
 # How it works
-There are 6 functions render1() render2() render3() render4() band1() band()2
-Each function when called with draw a different shape which will react to the beat of the music 
+There are 6 method render1() render2() render3() render4() band1() band()2
+Each method when called with draw a different shape which will react to the beat of the music 
 
-In the draw() function of MyVisual i have an if pressed component that will call the function that is assigned to that key 
+In the draw() method of MyVisual i have an if pressed component that will call the methopd that is assigned to that key 
 ```Java
 public void draw()
     {
@@ -69,7 +69,7 @@ public void draw()
         
 	}
 	```
-If 1 is pressed it will call the function render1() from the ellipse fun class hence the wf.render1()
+If 1 is pressed it will call the method render1() from the ellipse fun class hence the wf.render1()
 ```Java
 public void render1() 
     {
@@ -91,7 +91,7 @@ public void render1()
         }
     }
 ```
-If 2 is pressed it will call the function render2() from the ellipse fun class hence the wf.render2()
+If 2 is pressed it will call the method render2() from the ellipse fun class hence the wf.render2()
 ```Java
 public void render2() 
     {
@@ -114,7 +114,7 @@ public void render2()
         }
     }
 ```
-If 3 is pressed it will call the function render3() from the ellipse fun class hence the wf.render3()
+If 3 is pressed it will call the method render3() from the ellipse fun class hence the wf.render3()
 ```Java
 public void render3() 
     {
@@ -148,7 +148,7 @@ public void render3()
         }
     }
 ```
-If 4 is pressed it will call the function render4() from the ellipse fun class hence the wf.render4()
+If 4 is pressed it will call the method render4() from the ellipse fun class hence the wf.render4()
 ```Java
 public void render4()
     {
@@ -182,7 +182,7 @@ public void render4()
         }
     }
 ```
-If 5 is pressed it will call the function band1() from the ellipse fun class hence the bf.band1()
+If 5 is pressed it will call the method band1() from the ellipse fun class hence the bf.band1()
 ```Java
 public void band1()
     {
@@ -195,7 +195,7 @@ public void band1()
         }
     }
 ```
-If 6 is pressed it will call the function band2() from the ellipse fun class hence the bf.band2()
+If 6 is pressed it will call the method band2() from the ellipse fun class hence the bf.band2()
 ```Java
 public void band2()
     { 
@@ -215,11 +215,11 @@ public void band2()
     }
 ```
 # What I am most proud of in the assignment
-I am proud of some of 2 of the crazy shapes i made in render 3 and 4 and i am proud of the audio band and i am proud that i was able to use some simple components and make them fit well with the team.
-I am super proud of finishing the assignment to a high standard with the bombardment of new assessments due to there being no exam i was thrilled i found time to do all assignments to such a high standerd while being dource to work fulltime due to low staff during pandemic.
+I am proud of 2 of the crazy shapes i made in render 3 and 4 and i am proud of the audio band and i am proud that i was able to use some simple components and make them fit well with the theme.
+I am super proud of finishing the assignment to a high standard with the bombardment of new assessments due to there being no exam i was thrilled i found time to do all assignments to such a high standerd while being forced to work fulltime due to low staff during pandemic.
 I am delighted with the if pressed display a certain shape.
-I am delighted with how simple i kept the code and file structure as it is so easy to see how each class is passed and how things are called.
-Overal this project turned out much better than i expect as i am really not that artistic so coming up with some of the cool shapes was a real surprise to me.
+I am delighted with how simple i kept the code and file structure as it is so easy to see how each class is passed and how methods are called.
+Overal this project turned out much better than i expected as i am really not that artistic so coming up with some of the cool shapes was a real surprise to me.
 Hope you enjoy the project as much as i did.
 
 Adam Bermingham C18356933

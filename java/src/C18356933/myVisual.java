@@ -85,6 +85,10 @@ public class MyVisual extends Visual
         {
             bf.band1();
         }
+        if (key == '6')
+        {
+            bf.band2();
+        }
         
     }
 }

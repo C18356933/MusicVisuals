@@ -81,6 +81,10 @@ public class MyVisual extends Visual
         {
             wf.render4();
         }
+        if (key == '5')
+        {
+            bf.band1();
+        }
         
     }
 }

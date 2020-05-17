@@ -6,6 +6,7 @@ public class MyVisual extends Visual
 {    
     EllipseFun wf;
     AudioBandsVisual abv;
+    BandFun bf;
 
     public void settings()
     {
@@ -31,6 +32,7 @@ public class MyVisual extends Visual
         
         wf = new EllipseFun(this);
         abv = new AudioBandsVisual(this);
+        bf = new BandFun(this);
     }
 
     public void keyPressed()
@@ -79,5 +81,6 @@ public class MyVisual extends Visual
         {
             wf.render4();
         }
+        
     }
 }

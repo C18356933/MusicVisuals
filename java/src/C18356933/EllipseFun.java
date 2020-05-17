@@ -66,7 +66,7 @@ public class EllipseFun
         numofEll= 8;
         //centre
         mv.translate(mv.width / 2, mv.height / 2);
-        mv.strokeWeight(1);
+        mv.strokeWeight(5);
         for (int i = 0; i < 4; i++) 
         {
             mv.fill(r, g, b);
@@ -98,7 +98,7 @@ public class EllipseFun
         numofEll= 32;
         //centre
         mv.translate(mv.width / 2, mv.height / 2);
-        mv.strokeWeight(1);
+        mv.strokeWeight(2);
         for (int i = 0; i < 4; i++) 
         {
             mv.fill(r, g, b);
@@ -114,7 +114,3 @@ public class EllipseFun
         }
     }
 }
-    
-        
-    
-   

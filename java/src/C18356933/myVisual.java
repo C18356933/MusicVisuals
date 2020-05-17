@@ -71,7 +71,9 @@ public class MyVisual extends Visual
         {
             wf.render2();
         }
-        
-        
+       if (key == '3')
+        {
+            wf.render3();
+        }
     }
 }

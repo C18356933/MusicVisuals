@@ -40,11 +40,6 @@ public class EllipseFun
         y2 = 0;
         numofEll=4;
         mv.translate(mv.width / 2, mv.height / 2);
-        
-        
-
-        mv.noStroke();
-
         for (int i = 0; i < 9; i++) {
             mv.fill(0, 0, 255);
             y1 = MyVisual.map(mv.getSmoothedBands()[i], 0, 1000, mv.height / 6, mv.height / 1);
@@ -54,7 +49,38 @@ public class EllipseFun
             }   
         }
     }
-   
+
+    public void render3() 
+    {
+        //variables
+        int numofEll;
+        float x1,y1,x2,y2,r,g,b;
+        //values
+        x1= 1000;
+        y1 = 500;
+        x2 = 0;
+        y2 = 0 ;
+        r =0;
+        g=204;
+        b=0;
+        numofEll= 8;
+        //centre
+        mv.translate(mv.width / 2, mv.height / 2);
+
+        for (int i = 0; i < 4; i++) 
+        {
+            mv.fill(r, g, b);
+            x1 = mv.getSmoothedBands()[4 - i - 1] * 0.6f;
+            for (int j = 0; j < numofEll; j++) 
+            {
+                mv.ellipse(x2, y2, x1, y1);
+                mv.rotate(MyVisual.TWO_PI / numofEll);
+            }
+            r=(r+100);
+            g=(g/2);
+            b=(b+200);
+        }
+    }
 }
     
         
